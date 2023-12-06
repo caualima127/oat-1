@@ -1,0 +1,11 @@
+Questão 1: Vantagens de criar um diagrama de classes:
+Visualização Clara: Fornece uma representação visual clara da estrutura e relacionamentos entre as classes em um sistema.
+Comunicação Eficiente: Facilita a comunicação entre membros da equipe e partes interessadas, permitindo uma compreensão rápida e fácil da arquitetura do sistema.
+Identificação de Relacionamentos: Ajuda na identificação e definição de associações, heranças e composições entre as classes.
+Organização Hierárquica: Mostra a hierarquia das classes, destacando relações de herança e composição.
+Orientação para Implementação: Serve como guia inicial para a implementação do código-fonte, oferecendo uma visão estruturada das classes e de como elas se relacionam.
+
+
+Questão 2: O que é um array e como é a sua implementação:
+
+Um array é uma estrutura de dados que armazena elementos do mesmo tipo em posições de memória contíguas. Ele fornece acesso rápido aos elementos por meio de um índice.

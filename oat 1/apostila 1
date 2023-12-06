@@ -1,0 +1,28 @@
+Questão 1: Diferença entre Polimorfismo, Herança, Encapsulamento e Abstração:
+
+Polimorfismo: Polimorfismo significa “várias formas”, que é um termo designado a objetos de classes
+distintas. Exemplo; Sobrecarga de métodos ou interfaces.
+
+Herança: Permite uma classe herdar características (atributos e métodos) de outra classe. Exemplo: Uma classe 
+"Carro" herda características de uma classe "Veículo".
+
+Encapsulamento: é um mecanismo que trata de dar segurança aos objetos, mantendo-os
+controlados em relação ao seu nível de acesso. Exemplo: Uso de modificadores de acesso (public, private, 
+protected) para controlar o acesso aos membros de uma classe.
+
+Abstração: Representação simplificada de um objeto do mundo real em um programa. Exemplo: Criar uma classe 
+ "Animal" que representa características comuns a diferentes tipos de animais.
+
+ Questão 2: Associação, Agregação, Composição e Generalização:
+
+Associação: representa a relação existente entre objetos. Exemplo: Relação entre "Aluno" e "Curso".
+
+Agregação: Representa uma relação todo-parte entre o agregado e suas partes. Exemplo: "Time" pode 
+ter vários "Jogadores".
+
+Composição:representa uma relação todo-parte entre o agregado e
+suas partes. Exemplo: "Carro" composto por "Motor", "Rodas", etc.
+
+Generalização (Herança): representa a relação existente entre classes.
+Este relacionamento também é conhecido na orientação a objetos como herança.
+Exemplo: "Círculo" herdando de "Figura Geométrica".

@@ -1,0 +1,79 @@
+using System;
+
+class Carro
+{
+    public string Marca { get; set; }
+    public string Modelo { get; set; }
+    public int Ano { get; set; }
+    public string Cor { get; set; }
+    public double Preco { get; set; }
+
+    public void ExibirDetalhes()
+    {
+        Console.WriteLine($"Marca: {Marca}, Modelo: {Modelo}, Ano: {Ano}, Cor: {Cor}, Preço: {Preco:C}");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Carro carro1 = new Carro { Marca = "Toyota", Modelo = "Corolla", Ano = 2022, Cor = "Prata", Preco = 80000.00 };
+        Carro carro2 = new Carro { Marca = "Ford", Modelo = "Focus", Ano = 2021, Cor = "Azul", Preco = 70000.00 };
+
+        Console.WriteLine("Detalhes do Carro 1:");
+        carro1.ExibirDetalhes();
+
+        Console.WriteLine("\nDetalhes do Carro 2:");
+        carro2.ExibirDetalhes();
+    }
+}
+
+
+
+
+questão 2
+
+
+using System;
+
+class Carro
+{
+    public string Marca { get; set; }
+    public string Modelo { get; set; }
+    public int Ano { get; set; }
+    public string Cor { get; set; }
+    public double Preco { get; set; }
+
+    public void ExibirDetalhes()
+    {
+        Console.WriteLine($"Marca: {Marca}, Modelo: {Modelo}, Ano: {Ano}, Cor: {Cor}, Preço: {Preco:C}");
+    }
+
+    public string Acelerar()
+    {
+        return "O carro está em movimento";
+    }
+
+    public string Freiar()
+    {
+        return "O carro está parado";
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Carro carro1 = new Carro { Marca = "Toyota", Modelo = "Corolla", Ano = 2022, Cor = "Prata", Preco = 80000.00 };
+        Carro carro2 = new Carro { Marca = "Ford", Modelo = "Focus", Ano = 2021, Cor = "Azul", Preco = 70000.00 };
+
+        Console.WriteLine("Detalhes do Carro 1:");
+        carro1.ExibirDetalhes();
+        Console.WriteLine(carro1.Acelerar());
+
+        Console.WriteLine("\nDetalhes do Carro 2:");
+        carro2.ExibirDetalhes();
+        Console.WriteLine(carro2.Freiar());
+    }
+}
